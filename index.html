@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Dias Dos Namorados</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="https://logospng.org/wp-content/uploads/netflix.jpg" alt="" width="50px">
+        </div>
+
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">series</a>
+            <a href="#">Filmes</a>
+            <a href="#">Minha lista</a>
+        </nav>
+
+
+    </header>
+
+    <section class="banner">
+      <div class="conteudo">
+        <p class="titulo">
+            Victor e Isabelle
+        </p>
+        <p class="detalhes">
+            <span>12 DE JUNHO - 2 TEMPORADAS</span>
+            <span class="stars">
+                <i class="fa-solid fa-star" style="color: red;"></i>
+                <i class="fa-solid fa-star" style="color: red;"></i>
+                <i class="fa-solid fa-star" style="color: red;"></i>
+                <i class="fa-solid fa-star" style="color: red;"></i>
+                <i class="fa-solid fa-star" style="color: red;"></i>
+
+            </span>
+            <P class="DESCRICAO">
+                Desde a primeira vez que a gente se viu, eu senti como se a gente fosse feito um pro outro. Sabemos que não sou o tipo de pessoa que gosta de tirar foto, mas amo como isso te deixa feliz.
+Quero que você saiba o quão importante você é pra mim. Não sei fazer cartinhas ou como declarar o amor do jeito que talvez você quisesse, por esse motivo criei esse site, usando o que faço bem, para mostrar o quanto te amo. Saiba que você é a pessoa mais importante pra mim nesse mundo. Tudo que mais quero é te fazer feliz.
+
+Logo, logo completamos 2 anos de namoro. Como o tempo passa rápido! Espero que continue assim até a gente construir nossa família haha.
+Amo como a gente é quando tá junto. Amo quando estou perto de você, me sinto bem, como se tivesse voltado de uma longa viagem. Amo como você me faz uma pessoa melhor. Espero que continuemos assim até virarmos velhinhos e partirmos.
+
+TE AMO MUITO MAIS DO QUE VOCÊ ME AMA.
+Feliz Dia dos Namorados, neném.
+
+            </P>
+            <div class="botoes">
+                <button><i class="fa-solid fa-play"></i>continuar</button>
+                <button><i class="fa-solid fa-star" style="color: black;"></i>favorito</button>
+
+            </div>
+
+        </p>
+
+      </div>
+    </section>
+
+    <section class="momentos">
+        <h2>NOSSOS MELHORES MOMENTOS</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="./fotos/IMG 1.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./fotos/IMG 2.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./fotos/IMG 3.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./fotos/IMG 4.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./fotos/IMG 5.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./fotos/IMG 6.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./fotos/IMG 7.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./fotos/IMG 8.webp" alt=""></div>
+    <div class="swiper-slide"><img src="./fotos/IMG 9.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./fotos/IMG 10.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./fotos/IMG 11.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./fotos/IMG 12.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./fotos/IMG 13.jpg" alt=""></div>
+    ...
+  </div>
+</div>
+
+    </section>
+
+    <footer>
+        2025 - Victor vaz todos direitos reservados
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            autoplay:{
+                delay: 2500,
+                disableOnInteraction:false,
+
+            },
+            slidersPerview:2,
+            spaceBetween: 10,
+            loop: true,
+            breakpoints:{
+                600:{
+                    loop:true,
+                    slidersPerview:3,
+                    spaceBetween:15,
+                }
+            }
+
+
+
+            });
+    </script>
+    
+
+
+</body>
+</html>
